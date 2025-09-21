@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/th/:path*",
       "destination": "https://ruta.culturavpn.site/:path*"
     }
   ]
