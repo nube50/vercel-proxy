@@ -1,13 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/v2ray/:path*",
-      "destination": "https://rt.deartoast.com/v2ray/:path*"
+      "source": "/culturavpn/:path*",
+      "destination": "https://xh.culturavpn.site/:path*"
     }
   ],
   "headers": [
     {
-      "source": "/v2ray/:path*",
+      "source": "/culturavpn/:path*",
       "headers": [
         { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }
       ]
