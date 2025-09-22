@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/th/:path*",
-      "destination": "https://ruta.culturavpn.site/:path*"
+      "destination": "https://rt.deartoast.com/v2ray/:path*"
     }
   ],
   "headers": [
