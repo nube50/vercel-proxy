@@ -1,13 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/th/:path*",
+      "source": "/v2ray/:path*",
       "destination": "https://rt.deartoast.com/v2ray/:path*"
     }
   ],
   "headers": [
     {
-      "source": "/th/:path*",
+      "source": "/v2ray/:path*",
       "headers": [
         { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }
       ]
