@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/culturavpn/:path*",
-      "destination": "http://xh.culturavpn.site/:path*"
+      "destination": "https://xh.culturavpn.site/:path*"
     }
   ],
   "headers": [
