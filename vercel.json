@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/culturavpn/:path*",
-      "destination": "http://culturavpn.site:444/:path*"
+      "source": "/:path*",
+      "destination": "http://culturavpn.site:444/culturavpn:path*"
     }
   ],
   "headers": [
